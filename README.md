@@ -8,6 +8,7 @@ This model consists of heterodimeric motif generator and evaluator. The generato
 
 ![DeepMotifSyn Workflow](images/deepMotifSyn.png)
  
+![U-Net-Based Workflow](images/uNet.png) 
 ## Requirement
 * python == 3.6
 * tensorflow == 1.3.0
