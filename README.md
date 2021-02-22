@@ -21,6 +21,5 @@ Here is a tutoral how to install MATLAB Engine API (https://www.mathworks.com/he
 2. Load models from model directories (untar them first!) in `trained_models`. 
 3. Perform prediction.
 
-Here is a synthesis example notebook which can be run on colab
-
+Here is a synthesis example notebook which can be run on colab: 
 https://github.com/JasonLinjc/deepMotifSyn/blob/main/FLI1_FOXI1_synthesis_example.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/JasonLinjc/deepMotifSyn/blob/main/FLI1_FOXI1_synthesis_example.ipynb)
