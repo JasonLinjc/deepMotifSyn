@@ -2,14 +2,9 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/kundajelab/tfmodisco/blob/master/LICENSE)
 
 ## Introduction
-DeepMotiSyn is a deep learning based prediction model for sgRNA on-target knockout
- efficacy and genome-wide off-target cleavage profile prediction. 
+DeepMotiSyn is a deep-learning-based model to synthesize heterodimeric motifs from monomeric motif pairs. 
  
- This model is based on a carefully designed hybrid deep neural network for model training and prediction.
-
-Current version focuses on conventional NGG-based sgRNA design for SpCas9 in human species, for it is
- widely used in related experiments.
- 
+This model consists of heterodimeric motif generator and evaluator. The generator is a U-Net-based neural network that down-convolutes a monomeric motif pair and then up-convolute to generate a heterodimeric motif. A downstream machine learning model is used as the evaluator to compute for the predicted probability that a generated heterodimeric motif is the true one, based on the motif sequence features and DNA-binding family. Together, the generator and evaluator provide an integrated tool that enables users to conveniently synthesize heterodimeric motifs using any motif pair of interests.
  
 ## Requirement
 * python == 3.6
