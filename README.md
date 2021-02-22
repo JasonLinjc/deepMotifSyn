@@ -6,17 +6,18 @@ DeepMotiSyn is a deep-learning-based model to synthesize heterodimeric motifs fr
  
 This model consists of heterodimeric motif generator and evaluator. The generator is a U-Net-based neural network that down-convolutes a monomeric motif pair and then up-convolute to generate a heterodimeric motif. A downstream machine learning model is used as the evaluator to compute for the predicted probability that a generated heterodimeric motif is the true one, based on the motif sequence features and DNA-binding family. Together, the generator and evaluator provide an integrated tool that enables users to conveniently synthesize heterodimeric motifs using any motif pair of interests.
 
- <img src="images/deepMotifSyn.png" width="90%" height="90%" class="center" />
+<img src="images/deepMotifSyn.png" width="90%" height="90%" class="center" />
  
-
-
 ## Requirement
-* python == 3.6
-* tensorflow == 1.3.0
-* sonnet == 1.9
+* python == 3.7
+* pytorch == 1.7
+* xgboost == 1.3.3
+* MATLAB Engine API
+
+Here is a tutoral how to install MATLAB Engine API (https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)
 
 ## Usage
-1. Digitalize sgRNA using the following **sgRNA Coding Schema**. Epigenetics features can be found in [ENCODE](https://www.encodeproject.org/).
+1. Digitalize sgRNA using the following **sgRNA Coding Schema**. Epigenetics features can be found in [ENCODE].
 2. Load models from model directories (untar them first!) in `trained_models`. 
 3. Perform prediction.
 
