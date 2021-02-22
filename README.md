@@ -16,10 +16,7 @@ This model consists of heterodimeric motif generator and evaluator. The generato
 
 Here is a tutoral how to install MATLAB Engine API (https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)
 
-## Usage
-1. Digitalize sgRNA using the following **sgRNA Coding Schema**. Epigenetics features can be found in [ENCODE].
-2. Load models from model directories (untar them first!) in `trained_models`. 
-3. Perform prediction.
+## Example
 
 Here is a synthesis example notebook which can be run on colab: 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/JasonLinjc/deepMotifSyn/blob/main/FLI1_FOXI1_synthesis_example.ipynb)
