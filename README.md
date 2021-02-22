@@ -15,7 +15,6 @@ This model consists of heterodimeric motif generator and evaluator. The generato
 * MATLAB Engine API
 
 Here is a tutoral how to install MATLAB Engine API
-
 https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html
 
 ## Usage
