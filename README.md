@@ -19,5 +19,6 @@ Here is a tutoral how to install MATLAB Engine API (https://www.mathworks.com/he
 ## Example
 
 Here is a synthesis example notebook which can be run on colab: 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/JasonLinjc/deepMotifSyn/blob/main/FLI1_FOXI1_synthesis_example.ipynb)
+
+<a href="https://colab.research.google.com/github/JasonLinjc/deepMotifSyn/blob/main/FLI1_FOXI1_synthesis_example.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 https://github.com/JasonLinjc/deepMotifSyn/blob/main/FLI1_FOXI1_synthesis_example.ipynb 
