@@ -25,5 +25,5 @@ Here is a [synthesis example notebook](https://colab.research.google.com/github/
 ## CONTAINS:
 * notebook/cross_validation_DeepMotifSyn.ipynb: Python notebook to evaluate DeepMotifSyn under leave-one-motif-pair-out cross-validation
 * notebook/cross_validation_DeepMotifSyn: Python notebook to run DeepMotifSyn on synthesizing **FLI1-FOXI1** motif
-* data/*: Dataset for training and evaluating DeepMotifSyn
+* data/*: Dataset for training and evaluating DeepMotifSyn containing 614 CAP-SELEX heterodimeric motifs from 313 monomeric motif pairs
 * reproduced_paper_figure/plot_paper_figure.ipynb: Python notebook to plot the figures in our manuscript
