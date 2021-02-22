@@ -7,8 +7,8 @@ DeepMotiSyn is a deep-learning-based model to synthesize heterodimeric motifs fr
 This model consists of heterodimeric motif generator and evaluator. The generator is a U-Net-based neural network that down-convolutes a monomeric motif pair and then up-convolute to generate a heterodimeric motif. A downstream machine learning model is used as the evaluator to compute for the predicted probability that a generated heterodimeric motif is the true one, based on the motif sequence features and DNA-binding family. Together, the generator and evaluator provide an integrated tool that enables users to conveniently synthesize heterodimeric motifs using any motif pair of interests.
 
 
- <img src="images/deepMotifSyn.png" alt="deepMotifSyn" width="500" height="313" align="center" />
- <img src="images/uNet.png" alt="uNet-based" width="500" height="313" align="center" />
+ <img src="images/deepMotifSyn.png"/>
+ 
 
 
 ## Requirement
