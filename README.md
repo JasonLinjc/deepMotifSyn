@@ -16,8 +16,14 @@ This model consists of heterodimeric motif generator and evaluator. The generato
 
 Here is a tutoral how to install MATLAB Engine API (https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)
 
-## Example
+## Usage
 
 Here is a [synthesis example notebook](https://colab.research.google.com/github/JasonLinjc/deepMotifSyn/blob/main/FLI1_FOXI1_synthesis_example.ipynb) which can be run on colab: 
 
 <a href="https://colab.research.google.com/github/JasonLinjc/deepMotifSyn/blob/main/FLI1_FOXI1_synthesis_example.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+## CONTAINS:
+* notebook/cross_validation_DeepMotifSyn.ipynb: Python notebook to run leave-one-motif-pair-out cross-validation on DeepMotifSyn
+* notebook/cross_validation_DeepMotifSyn: Python notebook to run DeepMotifSyn on synthesizing heterodimeric motif **FLI1-FOXI1**
+* data/*: Dataset for training and evaluating DeepMotifSyn
+* reproduced_paper_figure/plot_paper_figure.ipynb: Python notebook to plot the figures in our manuscript
