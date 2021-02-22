@@ -14,7 +14,9 @@ This model consists of heterodimeric motif generator and evaluator. The generato
 * xgboost == 1.3.3
 * MATLAB Engine API
 
-Here is a tutoral how to install MATLAB Engine API (https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)
+Here is a tutoral how to install MATLAB Engine API
+
+https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html
 
 ## Usage
 
