@@ -1,5 +1,5 @@
 # DeepMotifSyn: a deep learning approach to synthesize heterodimeric DNA motifs
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/JasonLinjc/deepMotifSyn/LICENSE)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/JasonLinjc/deepMotifSyn/blob/main/LICENSE)
 
 ## Introduction
 DeepMotifSyn is a deep-learning-based model to synthesize heterodimeric motifs from monomeric motif pairs. 
