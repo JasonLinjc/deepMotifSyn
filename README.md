@@ -28,3 +28,4 @@ Here is a [synthesis example notebook](https://colab.research.google.com/github/
 * data/*: Dataset for training and evaluating DeepMotifSyn containing 614 [CAP-SELEX](https://www.nature.com/articles/nature15518) heterodimeric motifs from 313 monomeric motif pairs
 * reproduced_paper_figure/plot_paper_figure.ipynb: Python notebook to plot the figures in our manuscript
 * model/*: A well-trained DeepMotifSyn model containing a U-Net-based generator and a XGBoost-based evaluator
+(Unzip the zip files in data/ before running notebook) 
